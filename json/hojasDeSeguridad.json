@@ -1,0 +1,272 @@
+/* const hojasDeSeguridad =  */
+[
+    {
+      "id": 1,
+      "producto": "Agua Destilada",
+      "archivo": "assets/arc/aguaDestilada.pdf",
+      "cliente": [
+        "cepas burzaco"
+      ]
+    },
+    {
+      "id": 2,
+      "producto": "Alcohol Etilico 96°",
+      "archivo": "assets/arc/alcoholEtilico96.pdf",
+      "cliente": [
+        "cepas burzaco"
+      ]
+    },
+    {
+      "id": 3,
+      "producto": "Blem Lavanda",
+      "archivo": "assets/arc/blemLustraLavandaJohnson.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 4,
+      "producto": "Cera Acrílica A-20",
+      "archivo": "assets/arc/ceraAcrilicaA20Qualiquimica.pdf",
+      "cliente": [
+        "cepas avellaneda"
+      ]
+    },
+    {
+      "id": 5,
+      "producto": "Cera Extra Negra",
+      "archivo": "assets/arc/ceraExtraNegraQualiquimica.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 6,
+      "producto": "Cera Extra Roja",
+      "archivo": "assets/arc/ceraExtraRojaQualiquimica.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 7,
+      "producto": "Cera Jet",
+      "archivo": "assets/arc/ceraJetJohnson.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 8,
+      "producto": "DBX-100",
+      "archivo": "assets/arc/dbx100Thames.pdf",
+      "cliente": [
+        "cepas avellaneda"
+      ]
+    },
+    {
+      "id": 9,
+      "producto": "Desengrasante Industrial A",
+      "archivo": "assets/arc/desengrasanteIndustrialAAlquimia.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 10,
+      "producto": "Detergente Concentrado C-43",
+      "archivo": "assets/arc/detergenteConcentradoC43JK.pdf",
+      "cliente": [
+        "cepas avellaneda"
+      ]
+    },
+    {
+      "id": 11,
+      "producto": "Detergente Sodico Concentrado",
+      "archivo": "assets/arc/detergenteSodicoConcentradoJK.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 12,
+      "producto": "Drax Ultra",
+      "archivo": "assets/arc/draxUltraDiversey.pdf",
+      "cliente": [
+        "cepas burzaco"
+      ]
+    },
+    {
+      "id": 13,
+      "producto": "Emerel Forte",
+      "archivo": "assets/arc/adic/EmerelForteDiversey.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 14,
+      "producto": "Cera Extra Superconcentrada",
+      "archivo": "assets/arc/emulsionCeraSuperconcentradaQualiquimica.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 15,
+      "producto": "Flash Blanco Antibacterial",
+      "archivo": "assets/arc/flashBlancoAntibacterialDiversey.pdf",
+      "cliente": [
+        "hospital aleman",
+        "cepas avellaneda"
+      ]
+    },
+    {
+      "id": 16,
+      "producto": "Flash Ultra Pino",
+      "archivo": "assets/arc/flashUltraPinoDiversey.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 17,
+      "producto": "Floorclean",
+      "archivo": "assets/arc/floorcleanDiversey.pdf",
+      "cliente": [
+        "cepas burzaco"
+      ]
+    },
+    {
+      "id": 18,
+      "producto": "Forward Antibacterial",
+      "archivo": "assets/arc/forwardAntibacterialDiversey.pdf",
+      "cliente": [
+        "cepas burzaco"
+      ]
+    },
+    {
+      "id": 19,
+      "producto": "Glade Lavanda",
+      "archivo": "assets/arc/gladeAerosolLavandaJohnson.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 20,
+      "producto": "Lavencere",
+      "archivo": "assets/arc/lavencereQuimicaErpe.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 21,
+      "producto": "Limpiador de Acero Inoxidable",
+      "archivo": "assets/arc/limpiadorAceroInoxidableAlquimia.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 22,
+      "producto": "Limpiador Acrilico R-7",
+      "archivo": "assets/arc/limpiadorAcrilicoR7Qualiquimica.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 23,
+      "producto": "Limpiador Multiuso",
+      "archivo": "assets/arc/limpiadorMultiusoQualiquimica.pdf",
+      "cliente": [
+        "cepas avellaneda"
+      ]
+    },
+    {
+      "id": 24,
+      "producto": "Limpiador Neutro",
+      "archivo": "assets/arc/limpiadorNeutroAlquimia.pdf",
+      "cliente": [
+        "cepas burzaco"
+      ]
+    },
+    {
+      "id": 25,
+      "producto": "Limpiador Neutro Concentrado",
+      "archivo": "assets/arc/limpiadorNeutroConcentradoAcrilwaxWassington.pdf",
+      "cliente": [
+        "cepas avellaneda"
+      ]
+    },
+    {
+      "id": 26,
+      "producto": "Limpiador Neutro R-9",
+      "archivo": "assets/arc/limpiadorNeutroR9Acrylpo.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 27,
+      "producto": "Limpiador Neutro Baja Espuma",
+      "archivo": "assets/arc/limpiadorNeutroWassington.pdf",
+      "cliente": [
+        "hospital aleman",
+        "cepas avellaneda"
+      ]
+    },
+    {
+      "id": 28,
+      "producto": "Limpiador de Sarro",
+      "archivo": "assets/arc/limpiadorSarroAlquimia.pdf",
+      "cliente": [
+        "hospital aleman",
+        "cepas burzaco"
+      ]
+    },
+    {
+      "id": 29,
+      "producto": "Oxan 30",
+      "archivo": "assets/arc/oxan30JK.pdf",
+      "cliente": [
+        "hospital aleman",
+        "cepas avellaneda"
+      ]
+    },
+    {
+      "id": 30,
+      "producto": "Pasta Luxor",
+      "archivo": "assets/arc/pastaLimpiadoraLuxor.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 31,
+      "producto": "Secuestrante de Polvo S-5",
+      "archivo": "assets/arc/secuestrantePolvoS5Qualiquimica.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 32,
+      "producto": "Sellador S-10",
+      "archivo": "assets/arc/selladorAcrylpoS10Qualiquimica.pdf",
+      "cliente": [
+        "cepas avellaneda"
+      ]
+    },
+    {
+      "id": 33,
+      "producto": "Shampoo Limpiador de Alfombras",
+      "archivo": "assets/arc/shampooLimpiadorAlfombrasDenkyl.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    }
+  ]
+  
