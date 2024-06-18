@@ -68,15 +68,16 @@ function filtrarPorBuscador() {
     hojasFiltradas.forEach((e) => crearHojasDom(e));
 
     if(filtrar !== ""){
-        const procedimientosFiltrados = procedimientos.filter((p) => p.cliente.some((cliente) => cliente.toUpperCase().includes(filtrar)));
-        procedimientosFiltrados.forEach((e) => crearBotonesProcedimientos(e));
 
         const dilucionesFiltrados = diluciones.filter((d) => d.cliente.some((cliente) => cliente.toUpperCase().includes(filtrar)))
         dilucionesFiltrados.forEach((e) => crearDilucionesDom(e))
 
-        if (dilucionesFiltrados.length > 0) {
-            crearTituloDilucionesDom();
-        }
+        dilucionesFiltrados.length > 0 ? botonMostrarTodos() : null
+
+        dilucionesFiltrados.length > 0 ? crearTituloDilucionesDom() : null
+
+        const procedimientosFiltrados = procedimientos.filter((p) => p.cliente.some((cliente) => cliente.toUpperCase().includes(filtrar)));
+        procedimientosFiltrados.forEach((e) => crearBotonesProcedimientos(e));
     }
 }
 
@@ -95,6 +96,19 @@ const botonera = document.getElementById("botonera")
 
 //procedimientos.forEach((x) => crearBotonesProcedimientos(x))
 
+function botonMostrarTodos(){
+
+    const botonMostrarTodos = document.createElement("button")
+    botonMostrarTodos.classList.add("rounded-pill", "btn", "btn-primary", "m-2")
+    botonMostrarTodos.textContent = "Procedimiento Diluciones"
+    
+    botonMostrarTodos.addEventListener('click', () => {
+        const irADiluciones = document.getElementById("titulo-grilla-diluciones")
+        irADiluciones ? irADiluciones.scrollIntoView({ behavior: 'smooth' }) : null // Desplazamiento suave hacia el titulo de diluciones
+        })
+    botonera.appendChild(botonMostrarTodos)
+}
+
 function crearBotonesProcedimientos(f) {
 
     const boton = document.createElement("button")
@@ -111,7 +125,6 @@ function crearBotonesProcedimientos(f) {
 //-------------------------DILUCIONES-------------------------//
 
 const grillaDiluciones = document.getElementById("grilla-diluciones")
-
 
 //diluciones.forEach((e) => crearDilucionesDom(e))
 
