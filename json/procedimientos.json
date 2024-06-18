@@ -1,0 +1,36 @@
+{
+    "procedimientos": [
+    {
+        "id": 1,
+        "procedimiento": "Inducción HSE",
+        "archivo": "assets/arc/adic/introHSE-REV06.pdf",
+        "cliente": [
+            "hospital aleman"
+        ]
+    },
+    {
+        "id": 2,
+        "procedimiento": "Introducción Sist. de Gestión",
+        "archivo": "assets/arc/adic/introSCMS-REV09.pdf",
+        "cliente": [
+            "hospital aleman"
+        ]
+    },
+    {
+        "id": 3,
+        "procedimiento": "Capacitaciones",
+        "archivo": "assets/arc/adic/regCap.pdf",
+        "cliente": [
+            "hospital aleman"
+        ]
+    },
+    {
+        "id": 4,
+        "procedimiento": "Check-list Evacuación y Derrame",
+        "archivo": "assets/arc/adic/evaDer.pdf",
+        "cliente": [
+            "hospital aleman"
+        ]
+    }
+]
+}

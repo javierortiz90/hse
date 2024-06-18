@@ -1,0 +1,68 @@
+{
+    "diluciones": [
+    {
+        "id": 1,
+        "producto": "Cera A-20",
+        "archivo": "assets/arc/dil/dilucionCera-A20.pdf",
+        "cliente": [
+            "hospital aleman"
+        ]
+    },
+    {
+        "id": 2,
+        "producto": "Emerel Forte L. Diaria",
+        "archivo": "assets/arc/dil/dilucionEmerelForteLimpiezDiaria.pdf",
+        "cliente": [
+            "hospital aleman"
+        ]
+    },
+    {
+        "id": 3,
+        "producto": "Emerel Forte Removedor Cera",
+        "archivo": "assets/arc/dil/dilucionEmerelForteRemovedorCera.pdf",
+        "cliente": [
+            "hospital aleman"
+        ]
+    },
+    {
+        "id": 4,
+        "producto": "Lavencere",
+        "archivo": "assets/arc/dil/dilucionLavencere.pdf",
+        "cliente": [
+            "hospital aleman"
+        ]
+    },
+    {
+        "id": 5,
+        "producto": "Limpiador Neutro Acrilwax",
+        "archivo": "assets/arc/dil/dilucionLimpiadorNeutroAcrilwax.pdf",
+        "cliente": [
+            "hospital aleman"
+        ]
+    },
+    {
+        "id": 6,
+        "producto": "Oxan 30",
+        "archivo": "assets/arc/dil/dilucionOxan30.pdf",
+        "cliente": [
+            "hospital aleman"
+        ]
+    },
+    {
+        "id": 7,
+        "producto": "Limpiador Acrilico R7",
+        "archivo": "assets/arc/dil/dilucionR7.pdf",
+        "cliente": [
+            "hospital aleman"
+        ]
+    },
+    {
+        "id": 8,
+        "producto": "Limpiador Neutro R9",
+        "archivo": "assets/arc/dil/dilucionR9.pdf",
+        "cliente": [
+            "hospital aleman"
+        ]
+    }
+]
+}

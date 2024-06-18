@@ -1,5 +1,5 @@
-/* const hojasDeSeguridad =  */
-[
+{
+  "hojasDeSeguridad": [
     {
       "id": 1,
       "producto": "Agua Destilada",
@@ -269,4 +269,5 @@
       ]
     }
   ]
+}
   
