@@ -1,5 +1,5 @@
 let hojasDeSeguridad = []
-fetch("../json/hojasDeSeguridad.json")
+fetch("./json/hojasDeSeguridad.json")
 .then((Response) => Response.json())
 .then(hojas => {
     hojasDeSeguridad = hojas.hojasDeSeguridad
@@ -10,7 +10,7 @@ fetch("../json/hojasDeSeguridad.json")
 })
 
 let procedimientos = []
-fetch("../json/procedimientos.json")
+fetch("./json/procedimientos.json")
 .then((Response) => Response.json())
 .then(proc => {
     procedimientos = proc.procedimientos
@@ -20,7 +20,7 @@ fetch("../json/procedimientos.json")
 })
 
 let diluciones = []
-fetch("../json/diluciones.json")
+fetch("./json/diluciones.json")
 .then((Response) => Response.json())
 .then(diluc => {
     diluciones = diluc.diluciones
