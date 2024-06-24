@@ -99,7 +99,7 @@ const botonera = document.getElementById("botonera")
 function botonMostrarTodos(){
 
     const botonMostrarTodos = document.createElement("button")
-    botonMostrarTodos.classList.add("rounded-pill", "btn", "btn-primary", "m-2")
+    botonMostrarTodos.classList.add("rounded-pill", "btn", "btn-secondary", "mx-2", "my-1")
     botonMostrarTodos.textContent = "Procedimiento Diluciones"
     
     botonMostrarTodos.addEventListener('click', () => {
@@ -112,7 +112,7 @@ function botonMostrarTodos(){
 function crearBotonesProcedimientos(f) {
 
     const boton = document.createElement("button")
-    boton.classList.add("rounded-pill", "m-2", "btn", "btn-secondary")
+    boton.classList.add("rounded-pill", "btn", "btn-secondary", "mx-2", "my-1")
     boton.innerHTML = `
         ${f.procedimiento}
     `
