@@ -21,7 +21,8 @@
       "producto": "Blem Lavanda",
       "archivo": "assets/arc/blemLustraLavandaJohnson.pdf",
       "cliente": [
-        "hospital aleman"
+        "hospital aleman",
+        "hospital italiano"
       ]
     },
     {
@@ -29,7 +30,8 @@
       "producto": "Cera Acrílica A-20",
       "archivo": "assets/arc/ceraAcrilicaA20Qualiquimica.pdf",
       "cliente": [
-        "cepas avellaneda"
+        "cepas avellaneda",
+        "hospital italiano"
       ]
     },
     {
@@ -69,7 +71,8 @@
       "producto": "Desengrasante Industrial A",
       "archivo": "assets/arc/desengrasanteIndustrialAAlquimia.pdf",
       "cliente": [
-        "hospital aleman"
+        "hospital aleman",
+        "hospital italiano"
       ]
     },
     {
@@ -85,7 +88,8 @@
       "producto": "Detergente Sodico Concentrado",
       "archivo": "assets/arc/detergenteSodicoConcentradoJK.pdf",
       "cliente": [
-        "hospital aleman"
+        "hospital aleman",
+        "hospital italiano"
       ]
     },
     {
@@ -101,7 +105,8 @@
       "producto": "Emerel Forte",
       "archivo": "assets/arc/adic/EmerelForteDiversey.pdf",
       "cliente": [
-        "hospital aleman"
+        "hospital aleman",
+        "hospital italiano"
       ]
     },
     {
@@ -118,7 +123,8 @@
       "archivo": "assets/arc/flashBlancoAntibacterialDiversey.pdf",
       "cliente": [
         "hospital aleman",
-        "cepas avellaneda"
+        "cepas avellaneda",
+        "hospital italiano"
       ]
     },
     {
@@ -142,7 +148,8 @@
       "producto": "Forward Antibacterial",
       "archivo": "assets/arc/forwardAntibacterialDiversey.pdf",
       "cliente": [
-        "cepas burzaco"
+        "cepas burzaco",
+        "hospital italiano"
       ]
     },
     {
@@ -166,7 +173,8 @@
       "producto": "Limpiador de Acero Inoxidable",
       "archivo": "assets/arc/limpiadorAceroInoxidableAlquimia.pdf",
       "cliente": [
-        "hospital aleman"
+        "hospital aleman",
+        "hospital italiano"
       ]
     },
     {
@@ -224,7 +232,8 @@
       "archivo": "assets/arc/limpiadorSarroAlquimia.pdf",
       "cliente": [
         "hospital aleman",
-        "cepas burzaco"
+        "cepas burzaco",
+        "hospital italiano"
       ]
     },
     {
@@ -241,7 +250,8 @@
       "producto": "Pasta Luxor",
       "archivo": "assets/arc/pastaLimpiadoraLuxor.pdf",
       "cliente": [
-        "hospital aleman"
+        "hospital aleman",
+        "hospital italiano"
       ]
     },
     {
@@ -266,6 +276,86 @@
       "archivo": "assets/arc/shampooLimpiadorAlfombrasDenkyl.pdf",
       "cliente": [
         "hospital aleman"
+      ]
+    },
+    {
+      "id": 34,
+      "producto": "Cif Limpiador Cremoso",
+      "archivo": "assets/arc/cifLimpiadorCremoso.pdf",
+      "cliente": [
+        "hospital italiano"
+      ]
+    },
+    {
+      "id": 35,
+      "producto": "Clio Desodorante Ambiental",
+      "archivo": "assets/arc/clioDesodoranteAmbiental.pdf",
+      "cliente": [
+        "hospital italiano"
+      ]
+    },
+    {
+      "id": 36,
+      "producto": "Limpia Alfombras Baja Espuma",
+      "archivo": "assets/arc/klinLimpialfombraBajaEspuma.pdf",
+      "cliente": [
+        "hospital italiano"
+      ]
+    },
+    {
+      "id": 37,
+      "producto": "Sellador Acrílico",
+      "archivo": "assets/arc/selladorAcrilicoAlquimia.pdf",
+      "cliente": [
+        "hospital italiano"
+      ]
+    },
+    {
+      "id": 38,
+      "producto": "Cera Autobrillo Concentrada",
+      "archivo": "assets/arc/ceraAutobrilloConcentradaAlquimia.pdf",
+      "cliente": [
+        "hospital italiano"
+      ]
+    },
+    {
+      "id": 39,
+      "producto": "Secuestrante de Polvo",
+      "archivo": "assets/arc/secuestrantePolvoAlquimia.pdf",
+      "cliente": [
+        "hospital italiano"
+      ]
+    },
+    {
+      "id": 40,
+      "producto": "Flash Pisos Flotantes y Plastificados",
+      "archivo": "assets/arc/flashPisosFlotantesPlastificados.pdf",
+      "cliente": [
+        "hospital italiano"
+      ]
+    },
+    {
+      "id": 41,
+      "producto": "Lysoform Aerosol Floral",
+      "archivo": "assets/arc/lysoformAerosolFloral.pdf",
+      "cliente": [
+        "hospital italiano"
+      ]
+    },
+    {
+      "id": 42,
+      "producto": "Agua Lavandina",
+      "archivo": "assets/arc/aguaLavandina.pdf",
+      "cliente": [
+        "hospital italiano"
+      ]
+    },
+    {
+      "id": 43,
+      "producto": "Rugbee Liquido",
+      "archivo": "assets/arc/rugbeeLiquidoDiversey.pdf",
+      "cliente": [
+        "hospital italiano"
       ]
     }
   ]
