@@ -31,6 +31,14 @@
         "cliente": [
             "hospital aleman"
         ]
+    },
+    {
+        "id": 5,
+        "procedimiento": "Capacitaciones",
+        "archivo": "assets/arc/adic/regCapIta.pdf",
+        "cliente": [
+            "hospital italiano"
+        ]
     }
 ]
 }

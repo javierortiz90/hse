@@ -3,7 +3,7 @@ fetch("./json/hojasDeSeguridad.json")
 .then((Response) => Response.json())
 .then(hojas => {
     hojasDeSeguridad = hojas.hojasDeSeguridad
-    init()
+    // init()
 })
 .catch(error => {
     console.log("error:", error)
@@ -33,9 +33,9 @@ fetch("./json/diluciones.json")
 
 const grillaHojas = document.getElementById("grilla-hojas")
 
-function init(){
+/* function init(){
     hojasDeSeguridad.forEach((e) => crearHojasDom(e))
-}
+} */
 
 function crearHojasDom(h) {
     const div = document.createElement("div")
@@ -87,7 +87,7 @@ function eliminarBusqueda(){
     botonera.innerHTML = ""
     grillaDiluciones.innerHTML = ""
     tituloGrillaDiluciones.innerHTML = ""
-    hojasDeSeguridad.forEach((e) => crearHojasDom(e)); // Restaurar el contenido original
+    //hojasDeSeguridad.forEach((e) => crearHojasDom(e)); // Restaurar el contenido original
 }
 
 //-------------------------PROCEDIMIENTOS-------------------------//
