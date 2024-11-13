@@ -5,7 +5,8 @@
       "producto": "Agua Destilada",
       "archivo": "assets/arc/aguaDestilada.pdf",
       "cliente": [
-        "cepas burzaco"
+        "cepas burzaco",
+        "pilkington"
       ]
     },
     {
@@ -22,7 +23,8 @@
       "archivo": "assets/arc/blemLustraLavandaJohnson.pdf",
       "cliente": [
         "hospital aleman",
-        "hospital italiano"
+        "hospital italiano",
+        "pilkington"
       ]
     },
     {
@@ -72,7 +74,8 @@
       "archivo": "assets/arc/desengrasanteIndustrialAAlquimia.pdf",
       "cliente": [
         "hospital aleman",
-        "hospital italiano"
+        "hospital italiano",
+        "pilkington"
       ]
     },
     {
@@ -97,7 +100,8 @@
       "producto": "Drax Ultra",
       "archivo": "assets/arc/draxUltraDiversey.pdf",
       "cliente": [
-        "cepas burzaco"
+        "cepas burzaco",
+        "pilkington"
       ]
     },
     {
@@ -132,7 +136,8 @@
       "producto": "Flash Ultra Pino",
       "archivo": "assets/arc/flashUltraPinoDiversey.pdf",
       "cliente": [
-        "hospital aleman"
+        "hospital aleman",
+        "pilkington"
       ]
     },
     {
@@ -174,7 +179,8 @@
       "archivo": "assets/arc/limpiadorAceroInoxidableAlquimia.pdf",
       "cliente": [
         "hospital aleman",
-        "hospital italiano"
+        "hospital italiano",
+        "pilkington"
       ]
     },
     {
@@ -190,7 +196,8 @@
       "producto": "Limpiador Multiuso",
       "archivo": "assets/arc/limpiadorMultiusoQualiquimica.pdf",
       "cliente": [
-        "cepas avellaneda"
+        "cepas avellaneda",
+        "pilkington"
       ]
     },
     {
@@ -198,7 +205,8 @@
       "producto": "Limpiador Neutro",
       "archivo": "assets/arc/limpiadorNeutroAlquimia.pdf",
       "cliente": [
-        "cepas burzaco"
+        "cepas burzaco",
+        "pilkington"
       ]
     },
     {
@@ -233,7 +241,8 @@
       "cliente": [
         "hospital aleman",
         "cepas burzaco",
-        "hospital italiano"
+        "hospital italiano",
+        "pilkington"
       ]
     },
     {
@@ -242,7 +251,8 @@
       "archivo": "assets/arc/oxan30JK.pdf",
       "cliente": [
         "hospital aleman",
-        "cepas avellaneda"
+        "cepas avellaneda",
+        "pilkington"
       ]
     },
     {
@@ -251,7 +261,8 @@
       "archivo": "assets/arc/pastaLimpiadoraLuxor.pdf",
       "cliente": [
         "hospital aleman",
-        "hospital italiano"
+        "hospital italiano",
+        "pilkington"
       ]
     },
     {
@@ -283,7 +294,8 @@
       "producto": "Cif Limpiador Cremoso",
       "archivo": "assets/arc/cifLimpiadorCremoso.pdf",
       "cliente": [
-        "hospital italiano"
+        "hospital italiano",
+        "pilkington"
       ]
     },
     {
@@ -291,7 +303,8 @@
       "producto": "Clio Desodorante Ambiental",
       "archivo": "assets/arc/clioDesodoranteAmbiental.pdf",
       "cliente": [
-        "hospital italiano"
+        "hospital italiano",
+        "pilkington"
       ]
     },
     {
