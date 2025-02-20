@@ -24,7 +24,8 @@
       "cliente": [
         "hospital aleman",
         "hospital italiano",
-        "pilkington"
+        "pilkington",
+        "pirelli"
       ]
     },
     {
@@ -65,7 +66,8 @@
       "producto": "DBX-100",
       "archivo": "assets/arc/dbx100Thames.pdf",
       "cliente": [
-        "cepas avellaneda"
+        "cepas avellaneda",
+        "pirelli"
       ]
     },
     {
@@ -75,7 +77,8 @@
       "cliente": [
         "hospital aleman",
         "hospital italiano",
-        "pilkington"
+        "pilkington",
+        "pirelli"
       ]
     },
     {
@@ -92,7 +95,8 @@
       "archivo": "assets/arc/detergenteSodicoConcentradoJK.pdf",
       "cliente": [
         "hospital aleman",
-        "hospital italiano"
+        "hospital italiano",
+        "pirelli"
       ]
     },
     {
@@ -145,7 +149,8 @@
       "producto": "Floorclean",
       "archivo": "assets/arc/floorcleanDiversey.pdf",
       "cliente": [
-        "cepas burzaco"
+        "cepas burzaco",
+        "pirelli"
       ]
     },
     {
@@ -162,7 +167,8 @@
       "producto": "Glade Lavanda",
       "archivo": "assets/arc/gladeAerosolLavandaJohnson.pdf",
       "cliente": [
-        "hospital aleman"
+        "hospital aleman",
+        "pirelli"
       ]
     },
     {
@@ -206,7 +212,8 @@
       "archivo": "assets/arc/limpiadorNeutroAlquimia.pdf",
       "cliente": [
         "cepas burzaco",
-        "pilkington"
+        "pilkington",
+        "pirelli"
       ]
     },
     {
@@ -242,7 +249,8 @@
         "hospital aleman",
         "cepas burzaco",
         "hospital italiano",
-        "pilkington"
+        "pilkington",
+        "pirelli"
       ]
     },
     {
@@ -252,7 +260,8 @@
       "cliente": [
         "hospital aleman",
         "cepas avellaneda",
-        "pilkington"
+        "pilkington",
+        "pirelli"
       ]
     },
     {
@@ -262,7 +271,8 @@
       "cliente": [
         "hospital aleman",
         "hospital italiano",
-        "pilkington"
+        "pilkington",
+        "pirelli"
       ]
     },
     {
@@ -295,7 +305,8 @@
       "archivo": "assets/arc/cifLimpiadorCremoso.pdf",
       "cliente": [
         "hospital italiano",
-        "pilkington"
+        "pilkington",
+        "pirelli"
       ]
     },
     {
@@ -328,7 +339,8 @@
       "producto": "Cera Autobrillo Concentrada",
       "archivo": "assets/arc/ceraAutobrilloConcentradaAlquimia.pdf",
       "cliente": [
-        "hospital italiano"
+        "hospital italiano",
+        "pirelli"
       ]
     },
     {
@@ -336,7 +348,8 @@
       "producto": "Secuestrante de Polvo",
       "archivo": "assets/arc/secuestrantePolvoAlquimia.pdf",
       "cliente": [
-        "hospital italiano"
+        "hospital italiano",
+        "pirelli"
       ]
     },
     {
@@ -369,6 +382,110 @@
       "archivo": "assets/arc/rugbeeLiquidoDiversey.pdf",
       "cliente": [
         "hospital italiano"
+      ]
+    },
+    {
+      "id": 44,
+      "producto": "Desinfectante AL-70",
+      "archivo": "assets/arc/AL70Desinfectante.pdf",
+      "cliente": [
+        "pirelli"
+      ]
+    },
+    {
+      "id": 45,
+      "producto": "Citrutask STD Forte",
+      "archivo": "assets/arc/citrutaskStdForte.pdf",
+      "cliente": [
+        "pirelli"
+      ]
+    },
+    {
+      "id": 46,
+      "producto": "Desbri Desengrasante Industrial",
+      "archivo": "assets/arc/desbriDesengrasanteIndustrial.pdf",
+      "cliente": [
+        "pirelli"
+      ]
+    },
+    {
+      "id": 47,
+      "producto": "Flash Ultra Citrico",
+      "archivo": "assets/arc/FlashUltraCitrico.pdf",
+      "cliente": [
+        "pirelli"
+      ]
+    },
+    {
+      "id": 48,
+      "producto": "Diesel Grado 2",
+      "archivo": "assets/arc/dieselGrado2.pdf",
+      "cliente": [
+        "pirelli"
+      ]
+    },
+    {
+      "id": 49,
+      "producto": "Castrol CRB Monogrado",
+      "archivo": "assets/arc/castrolCrbMonogrado.pdf",
+      "cliente": [
+        "pirelli"
+      ]
+    },
+    {
+      "id": 50,
+      "producto": "Agua Desmineralizada",
+      "archivo": "assets/arc/aguaDesmineralizada.pdf",
+      "cliente": [
+        "pirelli"
+      ]
+    },
+    {
+      "id": 51,
+      "producto": "Castrol GO 2T",
+      "archivo": "assets/arc/castrolGo2T.pdf",
+      "cliente": [
+        "pirelli"
+      ]
+    },
+    {
+      "id": 52,
+      "producto": "Raid",
+      "archivo": "assets/arc/insecticidaRaid.pdf",
+      "cliente": [
+        "pirelli"
+      ]
+    },
+    {
+      "id": 53,
+      "producto": "Lavamanos Indal",
+      "archivo": "assets/arc/lavamanosIndal.pdf",
+      "cliente": [
+        "pirelli"
+      ]
+    },
+    {
+      "id": 54,
+      "producto": "Lavamotores",
+      "archivo": "assets/arc/lavamotoresJk.pdf",
+      "cliente": [
+        "pirelli"
+      ]
+    },
+    {
+      "id": 55,
+      "producto": "Nafta Normal",
+      "archivo": "assets/arc/naftaNormal.pdf",
+      "cliente": [
+        "pirelli"
+      ]
+    },
+    {
+      "id": 56,
+      "producto": "OFF Mosquito",
+      "archivo": "assets/arc/offMosquito.pdf",
+      "cliente": [
+        "pirelli"
       ]
     }
   ]
