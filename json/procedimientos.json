@@ -19,7 +19,7 @@
     {
         "id": 3,
         "procedimiento": "Capacitaciones",
-        "archivo": "assets/arc/adic/regCap.pdf",
+        "archivo": "assets/arc/adic/regCapAle.pdf",
         "cliente": [
             "hospital aleman"
         ]
@@ -38,6 +38,22 @@
         "archivo": "assets/arc/adic/regCapIta.pdf",
         "cliente": [
             "hospital italiano"
+        ]
+    },
+    {
+        "id": 6,
+        "procedimiento": "Capacitaciones",
+        "archivo": "assets/arc/adic/regCapBur.pdf",
+        "cliente": [
+            "cepas burzaco"
+        ]
+    },
+    {
+        "id": 7,
+        "procedimiento": "Capacitaciones",
+        "archivo": "assets/arc/adic/regCapAve.pdf",
+        "cliente": [
+            "cepas avellaneda"
         ]
     }
 ]
