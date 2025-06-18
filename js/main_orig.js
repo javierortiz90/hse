@@ -1,37 +1,41 @@
 let hojasDeSeguridad = []
+fetch("./json/hojasDeSeguridad.json")
+.then((Response) => Response.json())
+.then(hojas => {
+    hojasDeSeguridad = hojas.hojasDeSeguridad
+    // init()
+})
+.catch(error => {
+    console.log("error:", error)
+})
+
 let procedimientos = []
+fetch("./json/procedimientos.json")
+.then((Response) => Response.json())
+.then(proc => {
+    procedimientos = proc.procedimientos
+})
+.catch(error => {
+    console.log("error:", error)
+})
+
 let diluciones = []
+fetch("./json/diluciones.json")
+.then((Response) => Response.json())
+.then(diluc => {
+    diluciones = diluc.diluciones
+})
+.catch(error => {
+    console.log("error:", error)
+})
 
-const fetchHojas = fetch("./json/hojasDeSeguridad.json")
-    .then(res => res.json())
-    .then(data => {
-        hojasDeSeguridad = data.hojasDeSeguridad;
-    });
-
-const fetchProcedimientos = fetch("./json/procedimientos.json")
-    .then(res => res.json())
-    .then(data => {
-        procedimientos = data.procedimientos;
-    });
-
-const fetchDiluciones = fetch("./json/diluciones.json")
-    .then(res => res.json())
-    .then(data => {
-        diluciones = data.diluciones;
-    });
-
-Promise.all([fetchHojas, fetchProcedimientos, fetchDiluciones])
-    .then(() => {
-        const params = new URLSearchParams(window.location.search);
-        const nombre = params.get("nombre");
-        if (nombre) {
-            buscador.value = nombre;
-            filtrarPorBuscador();
-        }
-    })
-    .catch(error => console.error("Error al cargar los datos:", error));
+//-------------------------HOJAS DE SEGURIDAD-------------------------//
 
 const grillaHojas = document.getElementById("grilla-hojas")
+
+// function init(){
+//    hojasDeSeguridad.forEach((e) => crearHojasDom(e))
+//} 
 
 function crearHojasDom(h) {
     const div = document.createElement("div")
@@ -53,6 +57,7 @@ const eliminar = document.getElementById("eliminar")
 buscador.addEventListener("input", filtrarPorBuscador)
 eliminar.addEventListener("click", eliminarBusqueda)
 
+
 function filtrarPorBuscador() {
     grillaHojas.innerHTML = ""
     botonera.innerHTML = ""
@@ -63,10 +68,12 @@ function filtrarPorBuscador() {
     hojasFiltradas.forEach((e) => crearHojasDom(e));
 
     if(filtrar !== ""){
+
         const dilucionesFiltrados = diluciones.filter((d) => d.cliente.some((cliente) => cliente.toUpperCase().includes(filtrar)))
         dilucionesFiltrados.forEach((e) => crearDilucionesDom(e))
 
         dilucionesFiltrados.length > 0 ? botonMostrarTodos() : null
+
         dilucionesFiltrados.length > 0 ? crearTituloDilucionesDom() : null
 
         const procedimientosFiltrados = procedimientos.filter((p) => p.cliente.some((cliente) => cliente.toUpperCase().includes(filtrar)));
@@ -80,24 +87,30 @@ function eliminarBusqueda(){
     botonera.innerHTML = ""
     grillaDiluciones.innerHTML = ""
     tituloGrillaDiluciones.innerHTML = ""
-    //hojasDeSeguridad.forEach((e) => crearHojasDom(e));
+    //hojasDeSeguridad.forEach((e) => crearHojasDom(e)); // Restaurar el contenido original
 }
+
+//-------------------------PROCEDIMIENTOS-------------------------//
 
 const botonera = document.getElementById("botonera")
 
+//procedimientos.forEach((x) => crearBotonesProcedimientos(x))
+
 function botonMostrarTodos(){
+
     const botonMostrarTodos = document.createElement("button")
     botonMostrarTodos.classList.add("rounded-pill", "btn", "btn-secondary", "mx-2", "my-1")
     botonMostrarTodos.textContent = "Procedimiento Diluciones"
-
+    
     botonMostrarTodos.addEventListener('click', () => {
         const irADiluciones = document.getElementById("titulo-grilla-diluciones")
-        irADiluciones ? irADiluciones.scrollIntoView({ behavior: 'smooth' }) : null
-    })
+        irADiluciones ? irADiluciones.scrollIntoView({ behavior: 'smooth' }) : null // Desplazamiento suave hacia el titulo de diluciones
+        })
     botonera.appendChild(botonMostrarTodos)
 }
 
 function crearBotonesProcedimientos(f) {
+
     const boton = document.createElement("button")
     boton.classList.add("rounded-pill", "btn", "btn-secondary", "mx-2", "my-1")
     boton.innerHTML = `
@@ -109,7 +122,11 @@ function crearBotonesProcedimientos(f) {
     botonera.appendChild(boton)
 } 
 
+//-------------------------DILUCIONES-------------------------//
+
 const grillaDiluciones = document.getElementById("grilla-diluciones")
+
+//diluciones.forEach((e) => crearDilucionesDom(e))
 
 function crearDilucionesDom(d) {
     const div = document.createElement("div")
@@ -125,6 +142,8 @@ function crearDilucionesDom(d) {
     grillaDiluciones.appendChild(div)
 }
 
+//-------------------------TITULO DILUCIONES-------------------------//
+
 const tituloGrillaDiluciones = document.getElementById("titulo-grilla-diluciones")
 
 function crearTituloDilucionesDom(){
@@ -133,14 +152,3 @@ function crearTituloDilucionesDom(){
     h3.innerHTML = `<h3>Procedimientos de Diluciones</h3>`
     tituloGrillaDiluciones.appendChild(h3) 
 }
-
-//-------------------------AUTO CARGA DE PARAMETRO-------------------------//
-document.addEventListener("DOMContentLoaded", () => {
-    const params = new URLSearchParams(window.location.search);
-    const nombre = params.get("nombre");
-
-    if (nombre) {
-        buscador.value = nombre;
-        filtrarPorBuscador();
-    }
-});
