@@ -23,7 +23,7 @@ const fetchDiluciones = fetch("./json/diluciones.json")
 Promise.all([fetchHojas, fetchProcedimientos, fetchDiluciones])
     .then(() => {
         const params = new URLSearchParams(window.location.search);
-        const nombre = params.get("nombre");
+        const nombre = params.get("n");
         if (nombre) {
             buscador.value = nombre;
             filtrarPorBuscador();
@@ -133,14 +133,3 @@ function crearTituloDilucionesDom(){
     h3.innerHTML = `<h3>Procedimientos de Diluciones</h3>`
     tituloGrillaDiluciones.appendChild(h3) 
 }
-
-//-------------------------AUTO CARGA DE PARAMETRO-------------------------//
-document.addEventListener("DOMContentLoaded", () => {
-    const params = new URLSearchParams(window.location.search);
-    const nombre = params.get("nombre");
-
-    if (nombre) {
-        buscador.value = nombre;
-        filtrarPorBuscador();
-    }
-});
