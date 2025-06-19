@@ -1,6 +1,7 @@
 let hojasDeSeguridad = []
 let procedimientos = []
 let diluciones = []
+let anmatSenasa = []
 
 const fetchHojas = fetch("./json/hojasDeSeguridad.json")
     .then(res => res.json())
@@ -20,16 +21,24 @@ const fetchDiluciones = fetch("./json/diluciones.json")
         diluciones = data.diluciones;
     });
 
-Promise.all([fetchHojas, fetchProcedimientos, fetchDiluciones])
+const fetchAnmatSenasa = fetch("./json/anmatSenasa.json")
+    .then(res => res.json())
+    .then(data => {
+        anmatSenasa = data.anmatSenasa;
+    });
+
+Promise.all([fetchHojas, fetchProcedimientos, fetchDiluciones, fetchAnmatSenasa])
     .then(() => {
         const params = new URLSearchParams(window.location.search);
-        const nombre = params.get("n");
+        const nombre = params.get("nombre");
         if (nombre) {
             buscador.value = nombre;
             filtrarPorBuscador();
         }
     })
-    .catch(error => console.error("Error al cargar los datos:", error));
+    .catch(error => {
+        console.error("Error al cargar los datos:", error)
+    });
 
 const grillaHojas = document.getElementById("grilla-hojas")
 
@@ -58,6 +67,9 @@ function filtrarPorBuscador() {
     botonera.innerHTML = ""
     grillaDiluciones.innerHTML = ""
     tituloGrillaDiluciones.innerHTML = ""
+    grillaAnmat.innerHTML = ""
+    tituloGrillaAnmat.innerHTML = ""
+
     let filtrar = buscador.value.toUpperCase().trim();
     const hojasFiltradas = hojasDeSeguridad.filter((hoja) => hoja.cliente.some((cliente) => cliente.toUpperCase().includes(filtrar)));
     hojasFiltradas.forEach((e) => crearHojasDom(e));
@@ -71,6 +83,12 @@ function filtrarPorBuscador() {
 
         const procedimientosFiltrados = procedimientos.filter((p) => p.cliente.some((cliente) => cliente.toUpperCase().includes(filtrar)));
         procedimientosFiltrados.forEach((e) => crearBotonesProcedimientos(e));
+
+        const anmatFiltrados = anmatSenasa.filter((a) => a.cliente.some((cliente) => cliente.toUpperCase().includes(filtrar)))
+        anmatFiltrados.forEach((e) => crearAnmatDom(e))
+
+        anmatFiltrados.length > 0 ? botonMostrarAnmat() : null
+        anmatFiltrados.length > 0 ? crearTituloAnmatDom() : null
     }
 }
 
@@ -80,7 +98,8 @@ function eliminarBusqueda(){
     botonera.innerHTML = ""
     grillaDiluciones.innerHTML = ""
     tituloGrillaDiluciones.innerHTML = ""
-    //hojasDeSeguridad.forEach((e) => crearHojasDom(e));
+    grillaAnmat.innerHTML = ""
+    tituloGrillaAnmat.innerHTML = ""
 }
 
 const botonera = document.getElementById("botonera")
@@ -95,6 +114,18 @@ function botonMostrarTodos(){
         irADiluciones ? irADiluciones.scrollIntoView({ behavior: 'smooth' }) : null
     })
     botonera.appendChild(botonMostrarTodos)
+}
+
+function botonMostrarAnmat(){
+    const botonMostrarAnmat = document.createElement("button")
+    botonMostrarAnmat.classList.add("rounded-pill", "btn", "btn-secondary", "mx-2", "my-1")
+    botonMostrarAnmat.textContent = "ANMAT - SENASA"
+
+    botonMostrarAnmat.addEventListener('click', () => {
+        const irAAnmat = document.getElementById("titulo-grilla-anmat")
+        irAAnmat ? irAAnmat.scrollIntoView({ behavior: 'smooth' }) : null
+    })
+    botonera.appendChild(botonMostrarAnmat)
 }
 
 function crearBotonesProcedimientos(f) {
@@ -132,4 +163,28 @@ function crearTituloDilucionesDom(){
     h3.classList.add("mt-5")
     h3.innerHTML = `<h3>Procedimientos de Diluciones</h3>`
     tituloGrillaDiluciones.appendChild(h3) 
+}
+
+const grillaAnmat = document.getElementById("grilla-anmat")
+const tituloGrillaAnmat = document.getElementById("titulo-grilla-anmat")
+
+function crearAnmatDom(a) {
+    const div = document.createElement("div")
+    div.classList.add("col-12", "col-sm-6", "col-md-4", "text-center", "p-3")
+    div.innerHTML = `
+        <div class="rounded-3 h-100 align-content-center bg-light border p-3">
+            <h5 class="">${a.producto}</h5>
+        </div>
+    `
+    div.addEventListener("click", () => { 
+        window.open(a.archivo);
+    });
+    grillaAnmat.appendChild(div)
+}
+
+function crearTituloAnmatDom() {
+    const h3 = document.createElement("h3")
+    h3.classList.add("mt-5")
+    h3.innerHTML = `<h3>ANMAT - SENASA</h3>`
+    tituloGrillaAnmat.appendChild(h3)
 }

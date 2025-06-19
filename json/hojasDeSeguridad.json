@@ -78,7 +78,8 @@
         "hospital aleman",
         "hospital italiano",
         "pilkington",
-        "pirelli"
+        "pirelli",
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
       ]
     },
     {
@@ -105,7 +106,8 @@
       "archivo": "assets/arc/draxUltraDiversey.pdf",
       "cliente": [
         "cepas burzaco",
-        "pilkington"
+        "pilkington",
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
       ]
     },
     {
@@ -186,7 +188,8 @@
       "cliente": [
         "hospital aleman",
         "hospital italiano",
-        "pilkington"
+        "pilkington",
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
       ]
     },
     {
@@ -213,7 +216,8 @@
       "cliente": [
         "cepas burzaco",
         "pilkington",
-        "pirelli"
+        "pirelli",
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
       ]
     },
     {
@@ -250,7 +254,8 @@
         "cepas burzaco",
         "hospital italiano",
         "pilkington",
-        "pirelli"
+        "pirelli",
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
       ]
     },
     {
@@ -306,7 +311,8 @@
       "cliente": [
         "hospital italiano",
         "pilkington",
-        "pirelli"
+        "pirelli",
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
       ]
     },
     {
@@ -340,8 +346,7 @@
       "archivo": "assets/arc/ceraAutobrilloConcentradaAlquimia.pdf",
       "cliente": [
         "hospital italiano",
-        "pirelli",
-        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+        "pirelli"
       ]
     },
     {
@@ -390,7 +395,8 @@
       "producto": "Desinfectante AL-70",
       "archivo": "assets/arc/AL70Desinfectante.pdf",
       "cliente": [
-        "pirelli"
+        "pirelli",
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
       ]
     },
     {
@@ -488,7 +494,62 @@
       "cliente": [
         "pirelli"
       ]
+    },
+    {
+      "id": 57,
+      "producto": "Drax Lavavajillas (Limón)",
+      "archivo": "assets/arc/draxLavavajillasLimon.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 58,
+      "producto": "Victory Power Quat",
+      "archivo": "assets/arc/victoryPowerQuat.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 59,
+      "producto": "Shampoo Neutro Plus Valot",
+      "archivo": "assets/arc/shampooNeutroPlusValot.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 60,
+      "producto": "PASS",
+      "archivo": "assets/arc/pass.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 61,
+      "producto": "Rapid Hand",
+      "archivo": "assets/arc/rapidHand.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 62,
+      "producto": "Sanigel",
+      "archivo": "assets/arc/sanigel.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 63,
+      "producto": "Cif Antigrasa Ultrarápido",
+      "archivo": "assets/arc/cifAntigrasaUltrarapido.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
     }
   ]
 }
-  

@@ -1,0 +1,124 @@
+{
+  "anmatSenasa": [
+    {
+      "id": 64,
+      "producto": "Agua Lavandina (SENASA)",
+      "archivo": "assets/arc/anSe/aguaLavandinaSENASA.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 65,
+      "producto": "Desinfectante AL-70 (ANMAT)",
+      "archivo": "assets/arc/anSe/al70ANMAT.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 66,
+      "producto": "Cif Antigrasa Ultrarápido (ANMAT)",
+      "archivo": "assets/arc/anSe/cifAntigrasaANMAT.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 67,
+      "producto": "Cif Limpiador Cremoso (ANMAT)",
+      "archivo": "assets/arc/anSe/cifCremaANMAT.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 68,
+      "producto": "Desengrasante Industrial (SENASA)",
+      "archivo": "assets/arc/anSe/desengrasanteIndustrialSENASA.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 69,
+      "producto": "Drax Lavavajillas (ANMAT)",
+      "archivo": "assets/arc/anSe/draxLavavajillasANMAT.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 70,
+      "producto": "Drax Ultra (SENASA)",
+      "archivo": "assets/arc/anSe/draxUltraSENASA.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 71,
+      "producto": "Limpiador de Acero Inoxidable (ANMAT)",
+      "archivo": "assets/arc/anSe/limpiadorAceroANMAT.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 72,
+      "producto": "Limpiador de Sarro (ANMAT)",
+      "archivo": "assets/arc/anSe/limpiadorDeSarroANMAT.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 73,
+      "producto": "Limpiador Neutro (ANMAT)",
+      "archivo": "assets/arc/anSe/limpiadorDeSarroANMAT.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 74,
+      "producto": "PASS (ANMAT)",
+      "archivo": "assets/arc/anSe/passANMAT.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 75,
+      "producto": "Victory Power Quat (SENASA)",
+      "archivo": "assets/arc/anSe/powerQuatSENASA.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 76,
+      "producto": "Rapid Hand (SENASA)",
+      "archivo": "assets/arc/anSe/rapidHandSENASA.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 77,
+      "producto": "Sanigel (SENASA)",
+      "archivo": "assets/arc/anSe/sanigelSENASA.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 78,
+      "producto": "Shampoo Neutro Plus Valot (SENASA)",
+      "archivo": "assets/arc/anSe/shampooNeutroPlusValotSENASA.pdf",
+      "cliente": [
+        "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    }
+  ]
+}
