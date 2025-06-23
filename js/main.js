@@ -57,7 +57,9 @@ function crearHojasDom(h) {
 }
 
 const buscador = document.getElementById("buscador");
-const eliminar = document.getElementById("eliminar")
+const eliminar = document.getElementById("eliminar");
+const sinResultados = document.getElementById("sin-resultados")
+
 
 buscador.addEventListener("input", filtrarPorBuscador)
 eliminar.addEventListener("click", eliminarBusqueda)
@@ -69,10 +71,15 @@ function filtrarPorBuscador() {
     tituloGrillaDiluciones.innerHTML = ""
     grillaAnmat.innerHTML = ""
     tituloGrillaAnmat.innerHTML = ""
+    sinResultados.style.display = "none"
+
 
     let filtrar = buscador.value.toUpperCase().trim();
     const hojasFiltradas = hojasDeSeguridad.filter((hoja) => hoja.cliente.some((cliente) => cliente.toUpperCase().includes(filtrar)));
     hojasFiltradas.forEach((e) => crearHojasDom(e));
+
+    let sinResultadosFlag = hojasFiltradas.length === 0
+
 
     if(filtrar !== ""){
         const dilucionesFiltrados = diluciones.filter((d) => d.cliente.some((cliente) => cliente.toUpperCase().includes(filtrar)))
@@ -89,6 +96,19 @@ function filtrarPorBuscador() {
 
         anmatFiltrados.length > 0 ? botonMostrarAnmat() : null
         anmatFiltrados.length > 0 ? crearTituloAnmatDom() : null
+    
+    if (
+            hojasFiltradas.length === 0 &&
+            dilucionesFiltrados.length === 0 &&
+            procedimientosFiltrados.length === 0 &&
+            anmatFiltrados.length === 0
+        ) {
+           sinResultadosFlag = true
+        }
+    }
+
+    if (sinResultadosFlag) {
+        sinResultados.style.display = "block"
     }
 }
 
@@ -100,6 +120,7 @@ function eliminarBusqueda(){
     tituloGrillaDiluciones.innerHTML = ""
     grillaAnmat.innerHTML = ""
     tituloGrillaAnmat.innerHTML = ""
+    sinResultados.style.display = "none"
 }
 
 const botonera = document.getElementById("botonera")
