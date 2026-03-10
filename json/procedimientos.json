@@ -5,7 +5,13 @@
         "procedimiento": "Inducción HSE",
         "archivo": "assets/arc/adic/introHSE-REV06.pdf",
         "cliente": [
-            "hospital aleman"
+            "hospital aleman",
+            "hospital italiano",
+            "cepas avellaneda",
+            "cepas burzaco",
+            "pilkington",
+            "pirelli",
+            "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
         ]
     },
     {
@@ -13,7 +19,13 @@
         "procedimiento": "Intro. Sist. de Gestión",
         "archivo": "assets/arc/adic/introSCMS-REV09.pdf",
         "cliente": [
-            "hospital aleman"
+            "hospital aleman",
+            "hospital italiano",
+            "cepas avellaneda",
+            "cepas burzaco",
+            "pilkington",
+            "pirelli",
+            "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
         ]
     },
     {
