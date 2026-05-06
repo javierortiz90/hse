@@ -42,7 +42,7 @@
       "producto": "Cera Extra Negra",
       "archivo": "assets/arc/ceraExtraNegraQualiquimica.pdf",
       "cliente": [
-        "hospital aleman"
+        ""
       ]
     },
     {
@@ -50,7 +50,7 @@
       "producto": "Cera Extra Roja",
       "archivo": "assets/arc/ceraExtraRojaQualiquimica.pdf",
       "cliente": [
-        "hospital aleman"
+        ""
       ]
     },
     {
@@ -58,7 +58,7 @@
       "producto": "Cera Jet",
       "archivo": "assets/arc/ceraJetJohnson.pdf",
       "cliente": [
-        "hospital aleman"
+        ""
       ]
     },
     {
@@ -132,7 +132,7 @@
       "producto": "Flash Blanco Antibacterial",
       "archivo": "assets/arc/flashBlancoAntibacterialDiversey.pdf",
       "cliente": [
-        "hospital aleman",
+        "",
         "cepas avellaneda",
         "hospital italiano"
       ]
@@ -178,7 +178,7 @@
       "producto": "Lavencere",
       "archivo": "assets/arc/lavencereQuimicaErpe.pdf",
       "cliente": [
-        "hospital aleman"
+        ""
       ]
     },
     {
@@ -263,7 +263,7 @@
       "producto": "Oxan 30",
       "archivo": "assets/arc/oxan30JK.pdf",
       "cliente": [
-        "hospital aleman",
+        "",
         "cepas avellaneda",
         "pilkington",
         "pirelli"
@@ -549,6 +549,22 @@
       "archivo": "assets/arc/cifAntigrasaUltrarapido.pdf",
       "cliente": [
         "Aeropuerto Internacional Ministro Pistarini de Ezeiza"
+      ]
+    },
+    {
+      "id": 64,
+      "producto": "END BAC 2",
+      "archivo": "assets/arc/EndBac2.pdf",
+      "cliente": [
+        "hospital aleman"
+      ]
+    },
+    {
+      "id": 65,
+      "producto": "Oxivir Five 16 Concentrate",
+      "archivo": "assets/arc/OxivirFive16Concentrate.pdf",
+      "cliente": [
+        "hospital aleman"
       ]
     }
   ]

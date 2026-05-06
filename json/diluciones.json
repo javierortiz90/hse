@@ -5,7 +5,7 @@
         "producto": "Cera A-20",
         "archivo": "assets/arc/dil/dilucionCera-A20.pdf",
         "cliente": [
-            "hospital aleman"
+            ""
         ]
     },
     {
@@ -29,7 +29,7 @@
         "producto": "Lavencere",
         "archivo": "assets/arc/dil/dilucionLavencere.pdf",
         "cliente": [
-            "hospital aleman"
+            ""
         ]
     },
     {
@@ -45,7 +45,7 @@
         "producto": "Oxan 30",
         "archivo": "assets/arc/dil/dilucionOxan30.pdf",
         "cliente": [
-            "hospital aleman"
+            ""
         ]
     },
     {
@@ -61,7 +61,7 @@
         "producto": "Limpiador Neutro R9",
         "archivo": "assets/arc/dil/dilucionR9.pdf",
         "cliente": [
-            "hospital aleman"
+            ""
         ]
     }
 ]
