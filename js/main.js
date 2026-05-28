@@ -3,25 +3,25 @@ let procedimientos = []
 let diluciones = []
 let anmatSenasa = []
 
-const fetchHojas = fetch("./json/hojasDeSeguridad.json")
+const fetchHojas = fetch("./json/hojasDeSeguridad.json", { cache: "no-store" })
     .then(res => res.json())
     .then(data => {
         hojasDeSeguridad = data.hojasDeSeguridad;
     });
 
-const fetchProcedimientos = fetch("./json/procedimientos.json")
+const fetchProcedimientos = fetch("./json/procedimientos.json", { cache: "no-store" })
     .then(res => res.json())
     .then(data => {
         procedimientos = data.procedimientos;
     });
 
-const fetchDiluciones = fetch("./json/diluciones.json")
+const fetchDiluciones = fetch("./json/diluciones.json", { cache: "no-store" })
     .then(res => res.json())
     .then(data => {
         diluciones = data.diluciones;
     });
 
-const fetchAnmatSenasa = fetch("./json/anmatSenasa.json")
+const fetchAnmatSenasa = fetch("./json/anmatSenasa.json", { cache: "no-store" })
     .then(res => res.json())
     .then(data => {
         anmatSenasa = data.anmatSenasa;

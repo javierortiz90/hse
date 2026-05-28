@@ -113,7 +113,7 @@
     {
       "id": 13,
       "producto": "Emerel Forte",
-      "archivo": "assets/arc/EmerelForteDiversey.pdf",
+      "archivo": "assets/arc/EmerelForteDiversey2019.pdf",
       "cliente": [
         "hospital aleman",
         "hospital italiano"
@@ -184,7 +184,7 @@
     {
       "id": 21,
       "producto": "Limpiador de Acero Inoxidable",
-      "archivo": "assets/arc/limpiadorAceroInoxidableAlquimia.pdf",
+      "archivo": "assets/arc/limpiadorAceroInoxidableAlquimia2018.pdf",
       "cliente": [
         "hospital aleman",
         "hospital italiano",
@@ -195,7 +195,7 @@
     {
       "id": 22,
       "producto": "Limpiador Acrilico R-7",
-      "archivo": "assets/arc/limpiadorAcrilicoR7Qualiquimica.pdf",
+      "archivo": "assets/arc/limpiadorAcrilicoR7Qualiquimica2026.pdf",
       "cliente": [
         "hospital aleman"
       ]
@@ -248,7 +248,7 @@
     {
       "id": 28,
       "producto": "Limpiador de Sarro",
-      "archivo": "assets/arc/limpiadorSarroAlquimia.pdf",
+      "archivo": "assets/arc/limpiadorSarroAlquimia2022.pdf",
       "cliente": [
         "hospital aleman",
         "cepas burzaco",
@@ -343,7 +343,7 @@
     {
       "id": 38,
       "producto": "Cera Autobrillo Concentrada",
-      "archivo": "assets/arc/ceraAutobrilloConcentradaAlquimia.pdf",
+      "archivo": "assets/arc/ceraAutobrilloConcentradaAlquimia2018.pdf",
       "cliente": [
         "hospital italiano",
         "pirelli"

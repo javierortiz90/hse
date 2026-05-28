@@ -5,6 +5,14 @@
         "procedimiento": "Inducción HSE",
         "archivo": "assets/arc/adic/introHSE-REV06.pdf",
         "cliente": [
+            ""
+        ]
+    },
+    {
+        "id": 2,
+        "procedimiento": "Inducción HSE",
+        "archivo": "assets/arc/adic/I.029-IndSegHig-Rev10.pdf",
+        "cliente": [
             "hospital aleman",
             "hospital italiano",
             "cepas avellaneda",
@@ -15,7 +23,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "procedimiento": "Intro. Sist. de Gestión",
         "archivo": "assets/arc/adic/introSCMS-REV09.pdf",
         "cliente": [
@@ -29,7 +37,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "procedimiento": "Capacitaciones",
         "archivo": "assets/arc/adic/regCapAle.pdf",
         "cliente": [
@@ -37,7 +45,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "procedimiento": "Check-list Evacuación y Derrame",
         "archivo": "assets/arc/adic/evaDer.pdf",
         "cliente": [
@@ -45,7 +53,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "procedimiento": "Capacitaciones",
         "archivo": "assets/arc/adic/regCapIta.pdf",
         "cliente": [
@@ -53,7 +61,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "procedimiento": "Capacitaciones",
         "archivo": "assets/arc/adic/regCapBur.pdf",
         "cliente": [
@@ -61,11 +69,19 @@
         ]
     },
     {
-        "id": 7,
+        "id": 8,
         "procedimiento": "Capacitaciones",
         "archivo": "assets/arc/adic/regCapAve.pdf",
         "cliente": [
             "cepas avellaneda"
+        ]
+    },
+    {
+        "id": 9,
+        "procedimiento": "Protocolo 911",
+        "archivo": "assets/arc/adic/protocolo911.pdf",
+        "cliente": [
+            "hospital aleman"
         ]
     }
 ]
